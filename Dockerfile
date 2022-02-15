@@ -1,4 +1,4 @@
-WORKDIR /var/lib/jenkins/workspace/PipelineProject/
+#WORKDIR /var/lib/jenkins/workspace/PipelineProject/
 FROM tomcat
 EXPOSE 8080
 COPY target/*.jar /usr/local/tomcat/webapps/docker.jar
